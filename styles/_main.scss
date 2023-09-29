@@ -65,3 +65,37 @@
     grid-row: 27/33;
     grid-column: 7/10;
 }
+
+/* Container below pictures */
+.container_lovework {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 91px;
+}
+.container_lovework li {
+    list-style: none;
+    color: #111;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+}
+.hardwork {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: #111;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px; /* 135.714% */
+}
+.nav2 {
+    grid-column: 2/3;
+}
+.nav3 {
+    grid-column: 3/4;
+}
