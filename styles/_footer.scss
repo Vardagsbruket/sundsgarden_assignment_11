@@ -1,25 +1,21 @@
-.container_head {
+.container_footer {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     max-width: 1110px;
     width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
-
-.container_head ul {
+.container_footer ul {
     list-style: none;
     display: inline;
     padding: 5px;
 }
-.navBar {
-    display: flex;
-    align-items: center;
-}
 .nav1 {
     display: flex;
-}
-.navBar a {
-    text-decoration: none;
+    max-width: 170px;
+    width: 100%;
+    padding: 30px;
 }
