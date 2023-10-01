@@ -80,14 +80,14 @@
     margin-top: 91px;
 }
 .container_lovework li {
-    @extend %text
+   
     list-style: none;
     font-size: 18px;
     font-weight: 400;
     opacity: 0.6;
 }
 .hardwork {
-    @extend %text
+    
     grid-column: 1/2;
     grid-row: 1/2;
     font-size: 28px;

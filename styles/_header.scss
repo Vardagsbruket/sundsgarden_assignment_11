@@ -10,8 +10,11 @@
 
 .container_head ul {
     list-style: none;
-    display: inline;
+    display: flex;
     padding: 5px;
+}
+.container_head li {
+    padding: 29px;
 }
 .navBar {
     display: flex;
