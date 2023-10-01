@@ -67,6 +67,12 @@
 }
 
 /* Container below pictures */
+%text {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    color: #111;
+}
 .container_lovework {
     display: grid;
     grid-template-columns: 3fr 1fr 1fr;
@@ -74,22 +80,17 @@
     margin-top: 91px;
 }
 .container_lovework li {
+    @extend %text
     list-style: none;
-    color: #111;
-    font-family: 'Mulish', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     opacity: 0.6;
 }
 .hardwork {
+    @extend %text
     grid-column: 1/2;
     grid-row: 1/2;
-    color: #111;
-    font-family: Mulish;
     font-size: 28px;
-    font-style: normal;
     font-weight: 700;
     line-height: 38px; /* 135.714% */
 }
@@ -110,13 +111,12 @@
 .awards {
     grid-row: 1/3;
     grid-column: 1/2;
-    color: #111;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: 'Mulish', sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    @extend %text;
+        &_text {
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-size: 22px;
+            font-weight: 700;
+        }
 }
 .site {
     grid-row: 1/3;
@@ -168,6 +168,19 @@
     grid-column: 2/3;
 }
 .line {
-    grid-row: 5/6;
+    grid-row: 4/5;
     grid-column: 1/6;
+    border-bottom: 1px solid grey;
+}
+.design {
+    grid-row: 5/7;
+    grid-column: 1/2;
+}
+.site2 {
+    grid-row: 5/7;
+    grid-column: 2/3;
+}
+.genesis3 {
+    grid-row: 5/7;
+    grid-column: 3/4;
 }
