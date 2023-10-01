@@ -12,7 +12,17 @@
     list-style: none;
     display: flex;
     padding: 5px;
+    color: #111;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.346px;
 }
+    &:hover {
+        opacity: 0.5;
+    }
 .container_head li {
     padding: 29px;
 }
@@ -25,4 +35,5 @@
 }
 .navBar a {
     text-decoration: none;
+    
 }
