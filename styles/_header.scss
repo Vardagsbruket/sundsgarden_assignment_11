@@ -13,16 +13,14 @@
     display: flex;
     padding: 5px;
     color: #111;
-    font-family: Mulish;
+    font-family: 'Mulish', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.346px;
 }
-    &:hover {
-        opacity: 0.5;
-    }
+    
 .container_head li {
     padding: 29px;
 }

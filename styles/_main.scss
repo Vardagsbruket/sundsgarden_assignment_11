@@ -1,9 +1,20 @@
+
 .container_main_1 {
     display: flex;
 }
 .main_title {
     max-width: 635px;
     width: 100%;
+}
+.progress {
+    align-self:flex-end;
+    color: #111;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
 }
 .container_main_grid {
     display: grid;
@@ -12,6 +23,7 @@
     grid-gap: 20px;
     max-width: 1110px;
     width: 100%;
+    margin-top: 144px;
 }
 .grid_element {
     overflow: hidden;
