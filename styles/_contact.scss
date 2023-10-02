@@ -2,8 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 110px;
-    
     justify-content: space-between;
+    align-content: flex-start;
 }
 .contact_info {
     max-width: 445px;
@@ -64,4 +64,8 @@
 .input-field {
     border: none;
     border-bottom: 1px solid #979797;;
+}
+label {
+    font-weight: 700;
+    opacity: 0.6;
 }
