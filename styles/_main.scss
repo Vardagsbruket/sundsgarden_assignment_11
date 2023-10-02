@@ -8,83 +8,16 @@
 }
 .progress {
     align-self:flex-end;
-    color: #111;
-    font-family: Mulish;
     font-size: 18px;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
     opacity: 0.6;
 }
-.container_main_grid {
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(32, 1fr);
-    grid-gap: 20px;
-    max-width: 1110px;
-    width: 100%;
-    margin-top: 144px;
-}
-.grid_element {
-    overflow: hidden;
-    position: relative;
-}
-.first {
-    grid-row: 1/8;
-    grid-column: 1/4;
-}
-.second {
-    grid-row: 1/7;
-    grid-column: 4/7;
-}
-.third {
-    grid-row: 1/11;
-    grid-column: 7/10;
-}
-.fourth {
-    grid-row: 8/16;
-    grid-column: 1/4;
-}
-.fifth {
-    grid-row: 7/14;
-    grid-column: 4/7;
-}
-.sixth {
-    grid-row: 11/18;
-    grid-column: 7/10;
-}
-.seventh {
-    grid-row: 16/24;
-    grid-column: 1/4;
-}
-.eight {
-    grid-row: 14/23;
-    grid-column: 4/7;
-}
-.ninth {
-    grid-row: 18/27;
-    grid-column: 7/10;
-}
-.tenth {
-    grid-row: 24/33;
-    grid-column: 1/4;
-}
-.eleventh {
-    grid-row: 23/33;
-    grid-column: 4/7;
-}
-.twelwth {
-    grid-row: 27/33;
-    grid-column: 7/10;
-}
+
 
 /* Container below pictures */
-%text {
-    font-family: 'Mulish', sans-serif;
-    font-style: normal;
-    line-height: normal;
-    color: #111;
-}
+
 .container_lovework {
     display: grid;
     grid-template-columns: 3fr 1fr 1fr;
@@ -112,6 +45,8 @@
 .nav3 {
     grid-column: 3/4;
 }
+/* Table on main*/
+
 .container_table {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -123,18 +58,10 @@
 .awards {
     grid-row: 1/3;
     grid-column: 1/2;
-    @extend %text;
-        &_text {
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            font-size: 22px;
-            font-weight: 700;
-        }
 }
 .site {
     grid-row: 1/3;
     grid-column: 2/3;
-    color: #111;
-    font-family: 'Mulish', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -143,8 +70,6 @@
 .genesis {
     grid-row: 1/3;
     grid-column: 3/4;
-    color: #111;
-    font-family: 'Mulish', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -153,9 +78,7 @@
 .year {
     grid-row: 1/3;
     grid-column: 4/5;
-    color: #111;
     text-align: right;
-    font-family: 'Mulish', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
