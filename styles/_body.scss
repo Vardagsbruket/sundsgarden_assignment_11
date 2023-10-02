@@ -1,8 +1,11 @@
+$base-font: 'Mulish', sans-serif;
+$base-color: #111;
+
 body {
     max-width: 1110px;
     width: 100%;
     margin: auto;
-    font-family: 'Mulish', sans-serif;
+    font-family: $base-font;
 }
 p {
     opacity: 0.6;
@@ -16,8 +19,8 @@ h1 {
     line-height: 60px; /* 150% */
 }
 h2 {
-    color: #111;
-    font-family: 'Mulish', sans-serif;
+    color: $base-color;
+    font-family: $base-font;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -25,7 +28,7 @@ h2 {
 }
 h3 {
     color: #4A4FF2;
-    font-family: 'Mulish', sans-serif;
+    font-family: $base-font;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -33,8 +36,8 @@ h3 {
     letter-spacing: -0.423px;
 }
 .text {
-    color: #111;
-    font-family: 'Mulish', sans-serif;
+    color: $base-color;
+    font-family: $base-font;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -42,7 +45,8 @@ h3 {
 }
 a {
     text-decoration: none;
-}
-a:hover {
-    opacity: 0.5;
+
+    &:hover {
+        opacity: 0.5;
+    }
 }
